@@ -326,7 +326,9 @@ namespace Progress.Sitefinity.Translations.MicrosoftMachineTranslatorConnector
 
         #region code _Adapted_ from https://github.com/MicrosoftTranslator/DocumentTranslator/blob/5cbf1f69e94c249527772ac14d28eea8594a832e/TranslationServices.Core/TranslationServiceFacade.cs
 
-        public static readonly int MaxTranslateRequestSize = 5000;
+        // based on current limits as of 27 august 2024
+        // https://learn.microsoft.com/en-us/azure/ai-services/Translator/service-limits
+        public static readonly int MaxTranslateRequestSize = 50000;
 
         /// <summary>
         /// Split a string > than <see cref="MaxTranslateRequestSize"/> into a list of smaller strings, at the appropriate sentence breaks. 
