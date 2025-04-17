@@ -29,6 +29,6 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: InternalsVisibleTo("Progress.Sitefinity.Translations.MicrosoftMachineTranslatorConnector.Tests, PublicKey=00240000048000009400000006020000002400005253413100040000010001001945e52b2c1c8c089dc5f46fea976e6e02bffd3a35b2879a73eadedf3f1c2d0b368352aeb9f2af62a8ec5992fdf41dc0ccaa0e3691abcd4502002dba5bc386b3627b87502ee6c06c2c959a1a0e72ebc789feede7cec747894b05c823938d5d1f019bab203298383798e77013f16587208aada46ef991173e56ac056a219398a1")]
+[assembly: InternalsVisibleTo("Progress.Sitefinity.Translations.MicrosoftMachineTranslatorConnector.Tests")]
 [assembly: NeutralResourcesLanguage("en-US")]
 
