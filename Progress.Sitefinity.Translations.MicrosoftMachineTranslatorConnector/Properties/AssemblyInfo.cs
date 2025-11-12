@@ -29,6 +29,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: InternalsVisibleTo("Progress.Sitefinity.Translations.MicrosoftMachineTranslatorConnector.Tests")]
+[assembly: InternalsVisibleTo("Telerik.Sitefinity.Test")]
 [assembly: NeutralResourcesLanguage("en-US")]
-

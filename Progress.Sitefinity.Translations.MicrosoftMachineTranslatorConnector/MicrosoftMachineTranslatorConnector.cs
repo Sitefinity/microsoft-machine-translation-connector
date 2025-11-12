@@ -57,11 +57,6 @@ namespace Progress.Sitefinity.Translations.MicrosoftMachineTranslatorConnector
                 throw new ArgumentException(Constants.ExceptionMessages.NoApiKeyExceptionMessage);
             }
 
-            if (key.Length != Constants.ValidApiKeyLength)
-            {
-                throw new ArgumentException(Constants.ExceptionMessages.InvalidApiKeyExceptionMessage);
-            }
-
             this.key = key;
 
             var region = config.Get(Constants.ConfigParameters.Region);
